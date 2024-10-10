@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="GitLab Pages">
+    <title>3D Printing</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="text-align:center;">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+    <div>
+      <h1 class="titletext" style="font-size:80px;">Week 5: 3D Printing (and circuit testing)</h1>
+      <h2><a class="textbutton" href="index.html">Go Back</a></h2>
+      <div class="imagebox">
+        <p style="text-align:left; font-size:30px;">
+          This week, we were tasked with using the 3D printers. We had to first do a test print (of some design that somebody else made) so that we know how to use
+          the equipment. Then, we had to create our own 3D design that could not be made subtractively (i.e. with a CNC mill) and print it. We also used a 3D scanner to scan something. 
+        </p>
+      </div>
+      <br><hr class="bar"><br>
+      <h2 class="headertext" style="font-size:55px">Articulated Sausage</h2>
+      <div class="imagebox">
+        <div class="content">
+          <p style = "text-align:left; font-size:30px;">
+          For my test print, I found this file for 3D articulated sausages made by DeadCat1337 on Thingiverse. I loaded the file into a slicer software and printed it on a Creality CR-10S,
+          and it turned out really well. It was able to move freely after removing the support structures from the print.
+          </p>
+          <div class="gallery" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+            <img src="img/week5/sausage/1.webp" style="width:300px; max-width: 100%; height: auto;">
+            <img src="img/week5/sausage/2.webp" style="width:300px; max-width: 100%; height: auto;">
+            <img src="img/week5/sausage/3.webp" style="width:300px; max-width: 100%; height: auto;">
+            <img src="img/week5/sausage/4.gif" style="width:300px; max-width: 100%; height: auto;">
+          </div>
+        </div>
+      </div>
+      <iframe width="1280" height="720" src="https://www.youtube.com/embed/PRSUYqNjJG8" title="sausage timelapse" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <br><hr class="bar"><br>
+      <h2 class="headertext" style="font-size:55px">Propeller Drawer</h2>
+      <div class="imagebox">
+        <div class="content">
+          <p style = "text-align:left; font-size:30px;">
+          For the model I designed myself, I wanted to make a small desktop drawer I could put random things in, and I decided to add a spinning propeller to the top for no real reason.
+          The reason why this design is not possible subtractively is because it was all done 'print-in-place' meaning that the drawer was printed inside the housing, the propeller was printed on the axel,
+          everything was printed all at once with no assembly required. This is not possible with a subtractive process. Designing the model was fairly simple, so I loaded it into the slicer and printed this time using the
+          Bambu Labs X1-Carbon printer which was extremely fast. The first attempt didn't go so well, which you can see pictured, but after that it turned out perfectly. Removing the support structures was a real pain
+          (you can see a pile of stringy support structures which I removed from it), but everything worked as expected and turned out great.
+          </p>
+          <div class="gallery" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+            <img src="img/week5/drawer/1.webp" style="width:300px; max-width: 100%; height: auto;">
+            <img src="img/week5/drawer/2.webp" style="width:300px; max-width: 100%; height: auto;">
+            <img src="img/week5/drawer/3.webp" style="width:300px; max-width: 100%; height: auto;">
+            <img src="img/week5/drawer/4.webp" style="width:300px; max-width: 100%; height: auto;">
+            <img src="img/week5/drawer/5.webp" style="width:300px; max-width: 100%; height: auto;">
+            <img src="img/week5/drawer/6.webp" style="width:300px; max-width: 100%; height: auto;">
+            <img src="img/week5/drawer/7.webp" style="width:300px; max-width: 100%; height: auto;">
+            <img src="img/week5/drawer/8.webp" style="width:300px; max-width: 100%; height: auto;">
+            <img src="img/week5/drawer/9.webp" style="width:300px; max-width: 100%; height: auto;">
+            <img src="img/week5/drawer/10.gif" style="width:300px; max-width: 100%; height: auto;">
+          </div>
+        </div>
+      </div>
+      <iframe width="1280" height="720" src="https://www.youtube.com/embed/1BLl9cXvA-U" title="drawer timelapse" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <br><hr class="bar"><br>
+      <h2 class="headertext" style="font-size:55px">Propeller Drawer</h2>
+      <div class="imagebox">
+        <div class="content">
+          <p style = "text-align:left; font-size:30px;">
+          This week I also tested the PCB that I made in <a href="week4.html">Week 4</a>. I did this by loading some test code onto the SEEED Studio microcontroller which, if assembled correctly, would blink one of the LEDs on the PCB. As you can see in the image,
+          it is blinking so the PCB works perfectly! 
+          </p>
+          <div class="gallery" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+            <img src="img/week5/chip.png" style="width:300px; max-width: 100%; height: auto;">
+          </div>
+        </div>
+      </div>
+      <br><hr class="bar"><br>
+      <h2 class="headertext" style="font-size:55px">3D Scan</h2>
+      <div class="imagebox">
+        <div class="content">
+          <p style = "text-align:left; font-size:30px;">
+          This was a fairly simple task, we just used the 3D scanner that we have to scan something. I decided to scan myself. It's pretty terrifying but you can view and interact with the model below.
+          </p>
+          <div style="text-align: center;">
+            <model-viewer 
+                style="width: 1280px; height: 720px;"
+                alt="Snapping Piece 3D Model" 
+                src="3d/me.gltf" 
+                ar 
+                shadow-intensity="1" 
+                camera-controls 
+                touch-action="pan-y">
+            </model-viewer>
+          </div>        
+        </div>
+      </div>
+    </div>
+    <br><br>
+  </body>
+</html>

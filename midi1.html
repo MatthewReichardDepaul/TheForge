@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="GitLab Pages">
+    <title>Midi Controller 1</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="text-align:center;">
+    <div>
+      <h1 class="titletext" style="font-size:80px;">Personal Project: Midi Controller Part 1</h1>
+      <h2><a class="textbutton" href="index.html">Go Back</a></h2>
+      <div class="imagebox">
+        <p style="text-align:left; font-size:30px;">
+          This project is not related to an assignment, but I really wanted to make a drum pad-style midi controller (similar to the MIDIFighter) for me to use. So I did!
+        </p>
+      </div>
+      <br><hr class="bar"><br>
+      <div class="imagebox">
+        <div class="content">
+          <p style = "text-align:left; font-size:30px;">
+          The main design of the controller is from Staal 3D on Thingiverse. The heart of the controller is an Arduino MEGA microcontroller. A grid of 16 arcade/pinball buttons and 4 potentiometers are converted
+          to MIDI signals with the code loaded onto the board. I also flashed a custom firmware to the serial/usb chip (a 16U2) so that when plugged into a computer, the device is detected as a midi controller rather
+          than an arduino so it can be used right away on any computer. 
+          <br>
+          For those who don't know, a midi controller is an interface device used to play digital music notes in music production software. They can be piano-style keyboards or drum pads such as this one.
+          <br>
+          Starting with some simple tests shorting pins on the controller after getting the software running proved my device would work, so I 3D printed the housing and installed the pots. Soldering them was a very tedious task,
+          but they worked perfectly. I'm currently waiting for the arcade buttons to arrive from China, so this is as far as I can get right now. I'll make a new update once I finish it up :)
+          </p>
+          <div class="gallery" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+            <img src="img/midi1/1.webp" style="width:300px; max-width: 100%; height: auto;">
+            <img src="img/midi1/2.webp" style="width:300px; max-width: 100%; height: auto;">
+            <img src="img/midi1/3.webp" style="width:300px; max-width: 100%; height: auto;">
+            <img src="img/midi1/4.webp" style="width:300px; max-width: 100%; height: auto;">
+            <img src="img/midi1/5.webp" style="width:300px; max-width: 100%; height: auto;">
+            <img src="img/midi1/6.webp" style="width:300px; max-width: 100%; height: auto;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+  </body>
+</html>

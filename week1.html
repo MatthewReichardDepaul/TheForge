@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="GitLab Pages">
+    <title>Learning Fusion</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="text-align:center;">
+    
+    <!-- Import the 3D viewer component -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+    
+    <div>
+      <h1 class="titletext" style="font-size:80px;">Week 1: Learning Fusion</h1>
+      <h2><a class="textbutton" href="index.html">Go Back</a></h2>
+      <div class="imagebox">
+        <div class="content">
+          <p style = "text-align:left; font-size:30px;">
+          Learning Fusion was not an easy task. But it sort of was. My background knowledge in Blender as well as many YouTube tutorials led to me making something.
+          The task at hand was to create a peice that could snap into another one of itself, so I designed this simple peice, starting by creating this 2D 'sketch' of the design.
+          </p>
+        </div>
+        <div class="flexdisplay">
+          <img class="flexitem" alt="Snapping Piece Sketch" src="img/snapsketch.png">
+        </div>
+      </div>
+      <div class="imagebox zoom">
+        <div class="content">
+          <p style = "text-align:left; font-size:30px;">
+          After extruding the sketch into 3D and tweaking the model as needed, I created a 3D model (displayed to the right). The idea was that the disc-shaped part would slot into the concave 
+          portion and would stay inside of it thanks to the small, rounded 'nibs' holding it in place. Ideally, when 3D printed, these nibs will have enough flex to momentarily bend out of the way when inserting or removing
+          the disk.
+          </p>
+        </div>
+        <div class="flexdisplay">
+          <model-viewer class="flexitem" alt="Snapping Piece 3D Model" src="3d/Snapper_v3.gltf" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+        </div>
+      </div>
+      <br>
+    </div>
+    <br><br>
+  </body>
+</html>
+
+
